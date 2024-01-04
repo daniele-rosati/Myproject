@@ -1,0 +1,89 @@
+#container{
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+body{
+  background-image: url(background1.png);
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.quadrato {
+    width: 800px;
+    height: 800px;
+    margin-right: 100px;
+    background-color: rgba(0,0,0,0.4)	;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    padding:20px;
+    margin-left: -56px;
+    margin-right: 50px;
+    margin-top: -130px;
+
+  }
+
+  #container > .logo{
+    margin-right: -170px;
+    margin-top: 40px;
+    width: 172px;
+    position: relative;
+    z-index: auto;
+  }
+
+.titolo{
+  position: relative;
+  z-index: auto;
+}
+
+h2{
+  color: #00FF00;
+  text-align: center;
+  line-height: 0px;
+}
+
+.pulsanti{
+  background-color: #00FF00;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.primo, .secondo, .terzo{
+  line-height: 0px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  position: relative;
+  z-index: auto;
+}
+
+.rettangolo{
+      width: 300px;
+      height: 20px;
+      background: #FFEC8B;
+      border-radius: 5px 5px 5px 5px;
+      margin-top: -8px;
+}
+
+.rettangolo1{
+  width: 500px;
+  height: 20px;
+  background: #66CD00	;
+  border-radius: 5px 5px 5px 5px;
+  margin-top:-8px;
+}
+
+.rettangolo2{
+  width: 100px;
+  height: 20px;
+  background: #DC143C;
+  border-radius: 5px 5px 5px 5px;
+  margin-top:-8px;
+}
+
+*{
+  font-family: "Noto serig", serif;
+}
